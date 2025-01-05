@@ -4,11 +4,11 @@ This repository contains two Python scripts designed to interact with vulnerable
 
 ---
 
-## Script 1: `xml_schema_extractor.py`
+## Script 1: `xpath-blind.py`
 
 ### Overview
 
-The `xml_schema_extractor.py` script extracts the schema of an XML document through blind SQL/XML injection techniques. It recursively explores nodes, determines their names, child counts, and text content.
+The `xpath-blind.py` script extracts the schema of an XML document through blind XML injection techniques. It recursively explores nodes, determines their names, child counts, and text content.
 
 ### Features
 
@@ -37,11 +37,11 @@ The `xml_schema_extractor.py` script extracts the schema of an XML document thro
 
 ---
 
-## Script 2: `xml_data_extractor.py`
+## Script 2: `xpath-data-exvil.py`
 
 ### Overview
 
-The `xml_data_extractor.py` script extracts XML content by exploring nodes up to a specified depth. It uses crafted payloads to identify and retrieve data from web application responses.
+The `xpath-data-exvil.py` script extracts XML content by exploring nodes up to a specified depth. It uses crafted payloads to identify and retrieve data from web application responses.
 
 ### Features
 
