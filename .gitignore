@@ -1,7 +1,0 @@
-/NoSQL/
-/LDAP/
-secret.txt
-Scanners/octopops/test_data/
-Scanners/testing/
-**/__pycache__/
-.gitignore
