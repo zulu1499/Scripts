@@ -1,0 +1,17 @@
+# Nmap 7.95 scan initiated Sat Sep 20 11:53:31 2025 as: /usr/lib/nmap/nmap -iL /home/zulu/Documents/Scripts/octopops_out/all_discovery_scanners_ips.txt --open -Pn -oX - -oN /home/zulu/Documents/Scripts/octopops_out/nmap_processing/nmap_scan_results.txt
+Nmap scan report for 192.168.100.1
+Host is up (0.026s latency).
+Not shown: 996 closed tcp ports (reset), 2 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE
+53/tcp open  domain
+80/tcp open  http
+MAC Address: 30:E9:8E:2C:AC:0F (Huawei Technologies)
+
+Nmap scan report for 192.168.100.105
+Host is up (0.0000050s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE
+7070/tcp open  realserver
+
+# Nmap done at Sat Sep 20 11:53:35 2025 -- 4 IP addresses (3 hosts up) scanned in 4.25 seconds
